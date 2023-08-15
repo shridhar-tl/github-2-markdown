@@ -1,0 +1,23 @@
+{
+  "name": "github-2-markdown",
+  "version": "1.0.0",
+  "description": "This project lets you export GitHub issues and discussions to md file and supports pulling delta",
+  "main": "./src/index.js",
+  "bin": {
+    "gh2md": "cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js --config config.json"
+  },
+  "keywords": [
+    "github-2-markdown"
+  ],
+  "author": "Shridhar TL",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}

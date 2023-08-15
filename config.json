@@ -1,0 +1,19 @@
+{
+    "lastTimeStamp": "",
+    "file_name_template": "{number}.md",
+    "output_path": "markdown",
+    "max_issues_per_run": 100,
+    "source_repository": "",
+    "autoCommit": false,
+    "md_config": {
+        "heading_start": 2,
+        "include_images": false,
+        "comment_title_format": null,
+        "dateFormat": "MMM dd, yyyy",
+        "header": {
+            "slug": "{number}/{title|cut:50}",
+            "date": "{updated_at??created_at}",
+            "title": "{title}"
+        }
+    }
+}
