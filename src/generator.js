@@ -106,7 +106,7 @@ function generateMetadata(metadata, data, md_config) {
         return '';
     }
 
-    const result = keys.map(k => `${k}: "${parseTemplate(metadata[k], data, md_config)}"`).join('\n');
+    const result = keys.map(k => `${k}: "${parseTemplate(metadata[k], data, md_config).replace(/"/g, '\\"')}"`).join('\n');
 
     return `---\n${result}\n---\n\n`;
 }
